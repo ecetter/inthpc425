@@ -3,7 +3,7 @@
 salloc -N 2 -n 4 -A open -t 2:00:00
 
 # navigate to scratch
-cd /scratch/<userid>
+cd ~/scratch
 
 # download files
 git clone https://github.com/ecetter/inthpc425.git
