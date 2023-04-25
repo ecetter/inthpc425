@@ -7,7 +7,6 @@ dependencies:
   - blas=1.0=mkl
   - bzip2=1.0.8=h7b6447c_0
   - ca-certificates=2023.01.10=h06a4308_0
-  - gdb=11.2=py311he3c4487_2
   - intel-openmp=2021.4.0=h06a4308_3561
   - ld_impl_linux-64=2.38=h1181459_1
   - libffi=3.4.2=h6a678d5_6
@@ -25,7 +24,6 @@ dependencies:
   - ncurses=6.4=h6a678d5_0
   - numpy-base=1.23.5=py311h0ff3221_0
   - openssl=1.1.1t=h7f8727e_0
-  - pygments=2.11.2=pyhd3eb1b0_0
   - python=3.11.3=h7a1cb2a_0
   - readline=8.2=h5eee18b_0
   - six=1.16.0=pyhd3eb1b0_1
