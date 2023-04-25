@@ -1,3 +1,6 @@
+#
+# Commands for Setting up the Software Environment
+#
 
 # initialize interactive compute session
 salloc -N 2 -n 4 -A open -t 2:00:00
