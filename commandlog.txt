@@ -1,0 +1,16 @@
+
+# initialize interactive compute session
+salloc -N 2 -n 4 -A open -t 2:00:00
+
+# navigate to scratch
+cd /scratch/<userid>
+
+# download files
+git clone https://github.com/ecetter/inthpc425.git
+cd inthpc425
+
+# load software from software stack
+module load anaconda3 intel impi
+
+# create a conda environment for hands-on activities
+conda create -y -n inthpc425_env gdb numpy mpi4py
