@@ -14,3 +14,6 @@ module load anaconda3 intel impi
 
 # create a conda environment for hands-on activities
 conda create -y -n inthpc425_env gdb numpy mpi4py
+
+# activate environment
+source activate inthpc425_env
