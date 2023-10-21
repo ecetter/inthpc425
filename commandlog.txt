@@ -13,7 +13,7 @@ git clone https://github.com/ecetter/inthpc425.git
 cd inthpc425
 
 # load software from software stack
-module load anaconda3 intel impi
+module load anaconda intel impi
 
 # create a conda environment for hands-on activities
 conda create -y -n inthpc425_env gdb numpy mpi4py

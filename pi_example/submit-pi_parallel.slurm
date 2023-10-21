@@ -10,8 +10,7 @@
 #SBATCH --output=slurm-%x.out
 #SBATCH --error=slurm-%x.err
 
-source ~/.bashrc
-module load anaconda3 intel impi
-source activate inthpc425_env
+module load anaconda intel impi
+conda activate inthpc425_env
 
 srun python pi_parallel.py > pi_parallel.out
